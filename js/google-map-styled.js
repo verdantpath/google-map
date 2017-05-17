@@ -73,6 +73,12 @@ function init() {
 
 	};
 	var venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+	var startPosition = new google.maps.Marker({
+		position: pinLocation,
+		map: venueMap,
+		icon: "img/go.png"
+	});
 }
 function loadScript() {
 	var script = document.createElement('script');
