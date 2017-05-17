@@ -1,7 +1,9 @@
 function init() {
+	var pinLocation = new google.maps.LatLng(40.782710, -73.965310);
+
 	var mapOptions = {
 		zoom: 14,
-		center: new google.maps.LatLng(40.782710, -73.965310), 
+		center: pinLocation, 
 		mapType: google.maps.MapTypeId.ROADMAP, 
 		panControl: false,
 		zoomControl: true,
