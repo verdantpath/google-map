@@ -74,12 +74,14 @@ function init() {
 	};
 	var venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
 
+	// MARKER
 	var startPosition = new google.maps.Marker({
 		position: pinLocation,
 		map: venueMap,
 		icon: "img/go.png"
 	});
 }
+// CREATE SCRIPT TAG, LINK TO SCRIPT, APPEND TO BODY
 function loadScript() {
 	var script = document.createElement('script');
 	script.src = 'http://maps.googleapis.com/maps/api/js?sensor+false&callback=init';
