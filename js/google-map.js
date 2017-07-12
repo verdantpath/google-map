@@ -15,5 +15,5 @@ function loadScript() {
 	script.src = 'http://maps.googleapis.com/maps/api/js?sensor+false&callback=init';
 	document.body.appendChild(script);
 }
-// when the page has loaded, the loadScript() function will be called
+// when the page has loaded, the loadScript() function will be called	
 window.onload = loadScript;
