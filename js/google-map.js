@@ -5,6 +5,7 @@ function init() {
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		zoom: 13
 	};
+	// then init uses the Map() constructor to create and draw the map, it takes 2 parameters: the element the map is loaded into, the mapOptions object
 	var venueMap;
 	venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
