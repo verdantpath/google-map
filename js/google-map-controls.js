@@ -1,14 +1,15 @@
 function init() {
 	var mapOptions = {
 		zoom: 14,
-		center: new google.maps.LatLng(40.782710, -73.965310), 
-		mapType: google.maps.MapTypeId.ROADMAP, 
+		center: new google.maps.LatLng(40.782710, -73.965310),
+		mapType: google.maps.MapTypeId.ROADMAP,
+		// to show a control set value to true
 		panControl: false,
 		zoomControl: true,
 		zoomControlOptions: {
-			style: google.maps.ZoomControlStyle.SMALL, 
+			style: google.maps.ZoomControlStyle.SMALL,
 			position: google.maps.ControlPosition.TOP_RIGHT
-		}, 
+		},
 		mapTypeControl: true,
 		mapTypeControlOptions: {
 			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
