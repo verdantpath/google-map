@@ -6,6 +6,7 @@ function init() {
 		// to show a control set value to true
 		panControl: false,
 		zoomControl: true,
+		// set display options with object (controlNameOptions)
 		zoomControlOptions: {
 			style: google.maps.ZoomControlStyle.SMALL,
 			position: google.maps.ControlPosition.TOP_RIGHT
